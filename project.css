@@ -1,0 +1,44 @@
+body{
+    padding: 12px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#container{
+    display: flex;
+}
+
+#container div{
+    padding: 5px;
+}
+
+.hidden-link{
+    display: none;
+}
+
+.bix-1{
+ flex: 1;
+}
+
+.bix-2{
+ flex: 1;   
+}
+
+.bix-3{
+  flex: 1;  
+}
+
+/* .iframe{
+    display: d-none d-sm-block;
+} */
+
+.btn{
+    border: 0px;
+    border-radius: 20px;
+}
+
+@media(max-width:680px){
+    #container{
+        display:block;
+    }
+}
